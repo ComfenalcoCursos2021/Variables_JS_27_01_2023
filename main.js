@@ -1,22 +1,17 @@
 
 
+
 let nombre = "Miguel Angel Castro Escamilla";
+alert(nombre);
+confirm(nombre);
+prompt("Ingrese su nombre");
 
-console.log(nombre);
-console.warn(nombre);
-console.error(nombre);
-console.info(nombre);
+// document.querySelector("dialog").showModal();
 
-console.group("Mensaje de usuario");
-    console.log("Mensajes agrupados con titulo");
-console.groupEnd();
-
-console.table([nombre]);
-console.table([{nombre_variable: nombre}]);
-
-// console.clear();
-
-console.time();
-    console.log("Tiempo que se demoro la web en cargar este mensaje");
-console.timeEnd();
-
+// document.querySelector("#myBoton").addEventListener("click", (e)=>{
+//     Swal.fire(
+//         'El Internet?',
+//         'Esa cosa todavía está alrededor?',
+//         'success'
+//       )
+// })
